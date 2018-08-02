@@ -18,8 +18,8 @@ $('#close').click(function(){
 });
 //Modal size should be 100% for mobile screens
 $(window).resize(function(){
-   if($(window).width()<768){
-   $('.content').css("width","90%");
+   if($(window).width()<800){
+        $('.content').css("width","90%");
    }
    else
    {
